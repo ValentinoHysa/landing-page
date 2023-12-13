@@ -1,0 +1,145 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+img{
+    width: 320px;
+    height: auto;
+}
+
+.section-2 img{
+    width: 150px;
+    height: 150px;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 10px 50px;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.section-1, .section-2, .section-3, .section-4 {
+    padding: 20px 60px;
+}
+.section-1{
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px 50px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0px 50px;
+}
+.title{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.subtext{
+    font-size: 16px;
+    color: #e5e7eb;
+}
+button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    max-width: 100px;
+    border: none;
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.section-2 .title2{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.images, .subtexts{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+.section-2 .subtext, .section-2 a{
+    color: grey;
+}
+
+.section-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+.section-4{
+    display: flex;
+    background-color: #3882f6;
+    margin: 80px;
+    border-radius: 4px;
+}
+.title4{
+    color: #e5e7eb;
+    font-weight: bold;
+}
+.section-4 .subtext{
+    font-size: 12px;
+}
+
+.section-4 button{
+    border-color: #e5e7eb;
+}
+.footer{
+    justify-content: center;
+    align-items: center;
+}
