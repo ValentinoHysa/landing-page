@@ -15,6 +15,9 @@ img{
 .section-2 img{
     width: 150px;
     height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 4px;
 }
 
 .header, .footer {
@@ -89,6 +92,7 @@ a {
 .section-2 .title2{
     display: flex;
     font-size: 24px;
+    color: #1F2937;
     font-weight: bold;
     justify-content: center;
     align-items: center;
@@ -125,8 +129,10 @@ a {
 .section-4{
     display: flex;
     background-color: #3882f6;
-    margin: 80px;
+    margin: 60px;
     border-radius: 4px;
+    padding: 40px 80px;
+    justify-content: space-between;
 }
 .title4{
     color: #e5e7eb;
@@ -135,9 +141,15 @@ a {
 .section-4 .subtext{
     font-size: 12px;
 }
-
-.section-4 button{
+.section-4 .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-4 .right button{
     border-color: #e5e7eb;
+    border-style:solid;
+    border-width: 2px;
 }
 .footer{
     justify-content: center;
