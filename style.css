@@ -34,7 +34,7 @@ img{
     color: #F9FAF8;
 }
 .section-1, .section-2, .section-3, .section-4 {
-    padding: 20px 60px;
+    padding: 30px 60px;
 }
 .section-1{
     display: flex;
@@ -96,7 +96,7 @@ a {
     font-weight: bold;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding-bottom: 30px;
 }
 .images, .subtexts{
     display: flex;
@@ -154,4 +154,5 @@ a {
 .footer{
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
